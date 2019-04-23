@@ -15,5 +15,7 @@ Link: https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks
 Our dataset may not describe too many features, but they are very descriptive, and a lot of times we end up dropping features that are not correlated anyway, so this may be to our advantage. The features are as follows: Date, Open, High, Low, Close, Volume, OpenInt.
 
 On the side of how many rows we have, the CSV is quite huge, and that will definitely help us.
+Not only that, but the dataset contains data for all US-based stocks and ETFs trading on the NYSE, NASDAQ, and NYSE MKT.
+This means that the substance of the dataset is very high, and very relatable to us; based on what we would like to work and end up with in relation to our Business Case. 
 
 ## Part 3 - Data content and format
