@@ -19,3 +19,7 @@ Not only that, but the dataset contains data for all US-based stocks and ETFs tr
 This means that the substance of the dataset is very high, and very relatable to us; based on what we would like to work and end up with in relation to our Business Case. 
 
 ## Part 3 - Data content and format
+
+The data provides us with insight on the stock's values with dates. This can be very useful if we decide to get inspired by the Elliot Wave Theory, which in essence states that stocks are traded in repetitive patterns. However stock price or movement prediction is an extremely difficult task, and the currently available models still require supervision. 
+
+For this case LSTM models are the most efficient.
