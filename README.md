@@ -23,3 +23,15 @@ This means that the substance of the dataset is very high, and very relatable to
 The data provides us with insight on the stock's values with dates. This can be very useful if we decide to get inspired by the Elliot Wave Theory, which in essence states that stocks are traded in repetitive patterns. However stock price or movement prediction is an extremely difficult task, and the currently available models still require supervision. 
 
 For this case LSTM models are the most efficient.
+Long Short Term Memory-Networks or LSTMs are a special kind of Recurrent Neural Networks, meaning that their behaviour is naturally persistent with storing past data and use that for future results. An example would be; to predict what kind of event is going to occur at every point in a movie. Traditional Neural Networks would have an unclear understanding on how to predict future events based on past events. RNNs or Recurrent Neural Networks which implies LSTM-models as well, adress this issue. This is because they function in loops to create this long-term persistance in data, since they work as a chain of repeating modules. 
+
+There's a lot of cool and very interesting information of how these models work, but for this step we're going to keep it relatively simple and broad, thus when giving it a second thought it makes sense to use LSTM's for our features(listed below), that we're going to DataMine in the near future with the use of our models.  
+
+List of features we're going to be working with, includes: Date, Low, High, Open, Close & Volume. 
+* Date: The Data that we're going to be exploring is sorted by Date. This is due to that the order of which the data is presented is crucial in Time Series Modelling - That we will make use of. 
+
+* Low & High: Essentially meaning the Lowest price of a certain stock within the day and respectively the highest stock price within the day. This feature is naturally going to be useful for our project to help training our models, to identify certain patterns or trends that might occur within the daily progress of certain stock/s. 
+
+* Close: Meaning the final price in which either an equity or debt is being traded on a given trading day. The closing value represent an up-to-date estimation of a certain investment untill the next trading day commences. This will act as giving us certain "checkpoints" or markers for how the stock develops which will further improve the prediction of the stock. 
+
+* Volume: Volume determines the amount of sales that has occured for a given stock or the market overall, in a period of time. This is a logical feature to include in our processes, since it determines a rise or decrease in trading activity for the market and specific stock/s, hence giving a prediction on which stocks may increase or decrese investor-interest. 
